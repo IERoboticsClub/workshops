@@ -1,70 +1,79 @@
-# IEU Robotics Steganography Workshop 
 
 
+<!-- PROJECT SHIELDS -->
 
-<div style="text-align:center"><img src="https://static.wikia.nocookie.net/poohadventures/images/4/44/Inspector_Clouseau.png/revision/latest?cb=20220531232256" width="" height="180" /></div>
-
-<br>
-
-## What is steganography? 🔐
-
-Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. The word steganography combines the Greek words steganos (στεγανός), meaning "covered or protected", and graphein (γράφειν), meaning "writing". The purpose of steganography is to avoid detection; the essence of steganography is to hide the existence of a communication, not its content.
-
-<br>
-
-> _**With great power comes much responsibility**_: In the year 499 B.C.E., Histiaeus — a Greek adviser to the Persian King Darius I — ordered an enslaved person to visit his son-in-law, Aristagoras. When the man arrived, he asked that his head be shaved. 
-> There, tattooed on the enslaved person's scalp, was a hidden message from Histiaeus. It told Aristagoras to instigate an uprising against none other than the Persian King himself, Darius I.
-
-<br>
-
-
-## Origings of Steganography in AI 📝 
-
-Interetested in reading the paper? Check it out ➡️ <br>
-[END-TO-END TRAINED CNN ENCODER-DECODER NETWORKS FOR IMAGE
-STEGANOGRAPHY](https://arxiv.org/pdf/1711.07201.pdf)
-
-Using a neural network, the image can be modified in a more subtle way that is less likely to be detected by humans. The neural network can be trained on a large dataset of images and corresponding hidden messages to learn how to encode and decode messages effectively. The network can then use this knowledge to encode a new message within an image in a way that is both imperceptible and difficult to detect.
-
-In this way, a neural network can provide a more robust and effective solution for image steganography compared to traditional methods.
-
-[Traditional methods](https://en.wikipedia.org/wiki/Steganography) of image steganography involve modifying the least significant bits of the image pixels to encode the message. However, this can result in visual artifacts and is relatively easy to detect.
-
-
-Neural networks have shown to be more effective in encoding and decoding steganography messages compared to classic methods for several reasons:
-
-**Higher accuracy:** Neural networks can achieve higher accuracy rates in detecting and decoding steganography messages compared to classic methods. This is because neural networks can learn complex patterns and relationships in the data, which is difficult to achieve using traditional methods.
-
-**Robustness:** Neural networks can handle noisy and distorted data, which is common in steganography messages. Traditional methods may struggle to decode a message if there is even a slight distortion or noise, whereas neural networks can still decode the message accurately.
-
-**Adaptability:** Neural networks can adapt to different types of steganography methods and can learn to decode messages without needing prior knowledge of the specific steganography technique used. This makes them more versatile and effective compared to traditional methods that require specific knowledge of the encoding and decoding process for each steganography technique.
-
-**Speed:** Neural networks can perform encoding and decoding tasks quickly and efficiently compared to traditional methods, which may take longer to complete.
-
-Overall, neural networks are a more powerful tool for encoding and decoding steganography messages due to their ability to learn complex patterns and relationships in the data, handle noisy and distorted data, adapt to different steganography methods, and perform tasks quickly and efficiently.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 
-## About the Workshop
+# A Collection of Workshops by the IE Robotics Club
 
-This workshop will go over: 
+This repository contains a collection of workshops that the IE Robotics Club has created. The workshops are designed to be used by the club to teach students about robotics and AI. The workshops are also available to the public to use and modify.
 
-- What is steganography?
-- Model Architecture
-- Practical implementation
-- Demo
+## Workshops
 
-
-### Want to train the model yourself? 
-
-[DATA](enlace)
-
-## Run the demo locally
-
-### build the docker image
-
-### run the docker image
+- [Steganography Workshop](https://github.com/IERoboticsClub/workshops//blob/main/steganography-workshop)
+- [AI Chatbot Assistant]()
 
 
-# Presenters
+## Contributing
+
+IF you have an idea for a workshop and want to participate, send us an E-Mail [here](mailto:robotics.club@ie.edu)
+
+## Social Media
+
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES [![Name][Shield]][url] -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/vtwoptwo/CPPBasics.svg?style=for-the-badge
+[contributors-url]: https://github.com//IERoboticsClub/workshops/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vtwoptwo/CPPBasics.svg?style=for-the-badge
+[forks-url]: https://github.com//IERoboticsClub/workshops/network/members
+[stars-shield]: https://img.shields.io/github/stars/vtwoptwo/CPPBasics.svg?style=for-the-badge
+[stars-url]: https://github.com//IERoboticsClub/workshops/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vtwoptwo/CPPBasics.svg?style=for-the-badge
+[issues-url]: https://github.com//IERoboticsClub/workshops/issues
+[license-shield]: https://img.shields.io/github/license/vtwoptwo/CPPBasics.svg?style=for-the-badge
+[license-url]: https://github.com//IERoboticsClub/workshops/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/vera-prohaska-31734b1b5/
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
+[CPP-url]: https://cplusplus.com/
+[C++]: https://img.shields.io/badge/C++-blue
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/
+[Jupyter]: https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white
+[Jupyter-url]: https://jupyter.org/
+[SciKit-Learn]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[SciKit-Learn-url]: https://scikit-learn.org/stable/
+[Scipy]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[Scipy-url]:https://scipy.org/
+[Tensorflow]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
+[Tensorflow-url]:https://www.tensorflow.org/
+[Pandas]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
+[Pandas-url]: https://pandas.pydata.org/

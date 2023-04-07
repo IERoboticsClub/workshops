@@ -5,7 +5,7 @@ venv:
 	 pip install -r requirements.txt
 
 activate: 
-	. .venvstego/bin/activate
+	. .venv/bin/activate
 
 clean: 
 	rm -rf .venv
