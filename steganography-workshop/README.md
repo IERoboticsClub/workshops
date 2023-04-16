@@ -60,11 +60,47 @@ This workshop will go over:
 
 [DATA](enlace)
 
-## Run the demo locally
+# Run the demos
 
-### build the docker image
+There are 2 different demos available for this workshop. They both have very similar functionality, but they are implemented using different technologies.
 
-### run the docker image
+
+## Streamlit Demo
+
+![streamlit demo](demos/data/streamlit.jpg)
+
+Instructions to run it:
+1. Access the ```demos``` directory
+```shell
+cd demos
+```
+2. Create & activate a virtual environment
+```shell
+python3 -m venv venv && source venv/bin/activate
+```
+3. Install the dependencies
+```shell
+pip install -r requirements.txt
+```
+4. Run the streamlit app
+```shell
+streamlit run app.py
+```
+
+
+## FastAPI Demo
+![streamlit demo](demos/data/fast-api.jpg)
+1. Build the Docker image
+```shell
+docker build -t stegano-demo .
+```
+2. Run the docker image
+```shell
+docker run -i -t -p 5555:5555 stegano-demo
+```
+3. Open up the demo in your browser (preferably chrome) through http://0.0.0.0:5555/docs#/
 
 
 # Presenters
+- [Vera Prohaska](https://github.com/vtwoptwo)
+- [Diego Sanmartin](https://github.com/dsanmart)
