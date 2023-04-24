@@ -1,10 +1,15 @@
-#  AI - Chatbot Assistant Robotics Club
+#  AI - Chatbot Assistant
 
 
 
-<div style="text-align:center"><img src="https://img.freepik.com/free-vector/flat-woman-chatting-with-chatbot-communicating-ai-robot-assistant_88138-959.jpg?w=1380&t=st=1680905997~exp=1680906597~hmac=2aa93663bfc4191fe606f4e0342d0aa3dda0292e276236cf084b0c29c16b5c8e" width="" height="180" /></div>
+<div style="text-align:center"><img src="./assets/jarvis.png" width="" height="180" /></div>
 
+<!--
 <br>
+<div style="text-align:center"><img src="./assets/robotics.jpg" width="" height="75" /><img src="./assets/gdsc.jpg" width="" height="75" /></div>
+<div style="text-align:center"></div>
+<br>
+-->
 
 ## Chatbots 💬 
 
@@ -14,6 +19,19 @@ Imagine having a digital assistant that can chat with you like a real person, pr
 ## Leveraging AI to build a chatbot assistant
 
 
+
+<br>
+
+### Setting up Redis
+1. Install [Redis GUI](https://redis.com/redis-enterprise/redis-insight/) on your local machine
+2. Start the Redis server in the terminal using docker image with modules
+```bash
+docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:latest
+```
+3. Add a Redis Database connection to the Redis server through the GUI 
+```
+Database Alias: 127.0.0.1:6379
+```
 
 
 # Presenters
