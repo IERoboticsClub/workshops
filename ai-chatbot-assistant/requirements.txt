@@ -2,3 +2,6 @@ streamlit==1.21.0
 redis==4.5.4
 pdfminer.six==3.8.0
 sentence-transformers==2.2.2
+fschat==0.2.3
+streamlit-chat==0.0.2.2
+openai==0.27.4
