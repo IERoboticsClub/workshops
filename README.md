@@ -36,7 +36,7 @@ IF you have an idea for a workshop and want to participate, send us an E-Mail [h
 <!-- MARKDOWN LINKS & IMAGES [![Name][Shield]][url] -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/vtwoptwo/CPPBasics.svg?style=for-the-badge
-[contributors-url]: https://github.com//IERoboticsClub/workshops/graphs/contributors
+[contributors-url]: https://github.com/IERoboticsClub/workshops//graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/vtwoptwo/CPPBasics.svg?style=for-the-badge
 [forks-url]: https://github.com//IERoboticsClub/workshops/network/members
 [stars-shield]: https://img.shields.io/github/stars/vtwoptwo/CPPBasics.svg?style=for-the-badge
