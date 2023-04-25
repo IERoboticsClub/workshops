@@ -1,7 +1,6 @@
 #  AI - Virtual Assistant
 
 
-
 <div style="text-align:center"><img src="./assets/jarvis.png" width="" height="180" /></div>
 
 <!--
@@ -42,6 +41,81 @@ docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:la
 ```
 Database Alias: 127.0.0.1:6379
 ```
+
+<br>
+
+# Actions for Jarvis
+
+## Libraries Imported
+The code imports several external libraries using the import statement. These libraries include:
+- webbrowser
+- TemporaryFile
+- geocoder
+- requests
+- speech_recognition
+- streamlit
+- gtts
+- pygame
+
+## Text to Speech Function
+This function uses the Google Text-to-Speech API to convert text to speech. It takes a string argument as input and outputs the corresponding speech using the mixer library.
+
+## Voice Command Recognition
+
+The run_alexa function uses the take_command function to recognize voice commands from the user. It listens for voice input for a maximum of 5 seconds and then returns the spoken command as a string in lowercase format.
+- we initialize a listener (imagine as if it is a digital microphone)
+- recognize_google (explain more in depth)
+- timeout and phrase_time_limit (explain)
+
+## Main Program Loop
+The run_alexa function is the main program loop. It takes no arguments and executes indefinitely until a "terminate" command is spoken. It listens for voice commands from the user and performs the associated action by calling the corresponding function based on the recognized command.
+
+### Opening tabs
+Keywords are used to detect the type of command to execute.
+- blackboard
+- notion
+- mail
+In the above example webbrowser module is used for opening up the commanded tabs.
+
+## Actions with APIs
+_APIs are like a set of rules and protocols that allow different software programs to talk to each other and share data or functionality_
+
+### Joke
+The api that we chose for the Joke action receive a retrieves a data from an endpoint using a GET request. Then, it is converted into JSON format from where we access the Joke string.
+
+### Weather API Endpoint
+- Using geocoder library, user's geolocation is identified. 
+- API key needs to be retrieved from the following website: https://api.openweathermap.org/  and put the way it is specified below.
+```python
+ https://api.openweathermap.org/data/2.5/weather?lat={g.latlng[0]}&lon={g.latlng[1]}&appid={API_KEY}
+ ```
+- With the API key the weather is retrieved.
+
+### News about a specific topic API
+https://newsapi.org/ 
+- The command is split to get the keyword for the desired topic
+- Sign up for an API_KEY through https://newsapi.org/ 
+```python
+ (https://newsapi.org/v2/top-headlines?q={search_query}&apiKey={API_KEY})
+```
+-  With the API key the news are retrieved.
+
+### General news
+This variable stores the URL for the Top News API endpoint, which returns the top headlines from the United Kingdom. It includes the API key as a parameter for authentication.
+``` python
+https://newsapi.org/v2/top-headlines?country=gb&apiKey={API_KEY}
+```
+- The headlines can be retrieved about any topic, you just need to change the query.
+
+### Plot of
+Uses [omdb.com ](https://www.omdbapi.com/)
+-API is used to retrieve plots of movies.
+```python
+https://www.omdbapi.com/?t={search_query}&plot=full&apiKey={API_KEY}
+```
+
+## Streamlit Interface
+The code utilizes the streamlit library to create a simple web interface. The user can start the program by clicking on a button labeled "Run Alexa." The program listens for voice commands and communicates its response to the user using the Text_to_speech function. The web interface also includes a caption reminding the user how to terminate the program and a spinning icon to indicate that the program is listening for voice input.
 
 <br>
 
