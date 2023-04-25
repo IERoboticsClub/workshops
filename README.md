@@ -36,15 +36,15 @@ IF you have an idea for a workshop and want to participate, send us an E-Mail [h
 <!-- MARKDOWN LINKS & IMAGES [![Name][Shield]][url] -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/vtwoptwo/CPPBasics.svg?style=for-the-badge
-[contributors-url]: https://github.com/IERoboticsClub/workshops//graphs/contributors
+[contributors-url]: https://github.com/IERoboticsClub/workshops/graphs/contributors 
 [forks-shield]: https://img.shields.io/github/forks/vtwoptwo/CPPBasics.svg?style=for-the-badge
-[forks-url]: https://github.com//IERoboticsClub/workshops/network/members
+[forks-url]: https://github.com/IERoboticsClub/workshops/network/members
 [stars-shield]: https://img.shields.io/github/stars/vtwoptwo/CPPBasics.svg?style=for-the-badge
-[stars-url]: https://github.com//IERoboticsClub/workshops/stargazers
+[stars-url]: https://github.com/IERoboticsClub/workshops/stargazers
 [issues-shield]: https://img.shields.io/github/issues/vtwoptwo/CPPBasics.svg?style=for-the-badge
-[issues-url]: https://github.com//IERoboticsClub/workshops/issues
+[issues-url]: https://github.com/IERoboticsClub/workshops/issues
 [license-shield]: https://img.shields.io/github/license/vtwoptwo/CPPBasics.svg?style=for-the-badge
-[license-url]: https://github.com//IERoboticsClub/workshops/blob/master/LICENSE.txt
+[license-url]: https://github.com/IERoboticsClub/workshops/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/vera-prohaska-31734b1b5/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
