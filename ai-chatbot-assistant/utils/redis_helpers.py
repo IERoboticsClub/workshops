@@ -20,12 +20,6 @@ def connect_redis():
 
 def upload_to_redis(id_sentence: str, sourcepage: str, sourcefile: str, text: str, embedded_text: list, redis_conn: redis.Redis):
     """Upload a document to Redis."""
-    # get path and check if tempdir is thre 
-    # if not, create it
-
- 
-    
-
     key_doc = {
     "id": id_sentence,
     "sourcepage": sourcepage,
