@@ -30,8 +30,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("https://raw.githubusercontent.com/IERoboticsClub/workshops/main/ai-chatbot-assistant/assets/jarvis.png", width=300)
-
+    st.image("ai-chatbot-assistant/assets/jarvis.png", width=300)
 with col3:
     st.write(' ')
 

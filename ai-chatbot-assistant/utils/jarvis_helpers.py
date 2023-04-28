@@ -126,11 +126,11 @@ def run_alexa():
             
             break
     
-    # return a combination of all the prompts and response
+    # return a tuple of the prompt and response
     return command, response
 
-if __name__ == '__main__':
-    run_alexa()
+# if __name__ == '__main__':
+#     run_alexa()
 
 
 
