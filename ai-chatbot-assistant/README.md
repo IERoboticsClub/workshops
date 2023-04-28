@@ -1,3 +1,13 @@
+
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 #  AI - Virtual Assistant
 
 <div style="text-align:center"><i>Imagine having a digital assistant that can chat with you like a real person, providing you with instant and relevant information whenever you need it. That's the power of an AI virtual assistant!</i></div>
@@ -6,6 +16,21 @@
 
 <br>
 
+## Built With...
+<div style="text-align:center">
+
+<br>
+
+
+
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+[![Python][Python]][Python-url]
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+<br>
+![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
+
+</div>
 
 # Introduction
 In this workshop we introduce a virtual assistant chatbot that can be used to perform a variety of tasks. It can be used to open webpages, search for information, and even tell jokes. It also allows uploading your own personal documents and answering questions related to them.
@@ -123,14 +148,14 @@ The final step in the workflow is to convert the chatbot's response text into sp
 
 
 # 2. Streamlit Demo
-![Streamlit Demo](./assets/streamlit-demo.png)
+![Streamlit Demo](./assets/JarvIEs.gif)
 
 
 # 3. Instructions to Run the Virtual Assistant in your Laptop
 
 ## Installations
 ### 1. Docker
-1. Install [Docker](https://docs.docker.com/get-docker/) on your local machine
+1. Install [Docker](https://docs.docker.com/get-docker/) on your local machine. If you are using Mac make sure to choose the installation whcih fits your respective computer specs. (e.g. M1 Chip vs Intel i7)
 
 ### 2. Redis
 1. Install [Redis GUI](https://redis.com/redis-enterprise/redis-insight/) on your local machine
@@ -138,10 +163,12 @@ The final step in the workflow is to convert the chatbot's response text into sp
 ```bash
 docker run -d --name redis-stack-server -p 6379:6379 redis/redis-stack-server:latest
 ```
-3. Add a Redis Database connection to the Redis server through the GUI 
+3. Add a Redis Database connection to the Redis server through the GUI. Click on "+ add database" and make sure that the database alias is set to the following: 
+
 ```
 Database Alias: 127.0.0.1:6379
 ```
+
 
 <br>
 
@@ -152,17 +179,46 @@ git clone https://github.com/IERoboticsClub/workshops
 ***Note:** If you don't have git installed, you can download the repository as a zip file by clicking on the green "Code" button on the top right of the repository page.*
 
 ## Steps to run the application
-### 1. Create & activate a virtual environment
+
+### Set up the Environment
+
+ You can set up your environmentt with just one command in the terminal. Running one of the commands below, will basically run several commands at once to create a `venv` folder and install all the requirements.
+<br>
+
+> If you have any trouble during this step, refer to the [issues]() page, and check wether your issue has already been resolved, or open a new issue and we will try and fix it as soon as possible. 
+
+For Apple: 
+```bash
+make env-mac-chatbot
+```
+For Windows: 
+```bash
+make env-win-chatbot
+```
+For Linux: 
+```bash
+make env-lin-chatbot
+```
+
+# Understanding the Makefile Commands
+
+#### 1. Upgrade your `pip` (installer interface for python packages)
+
+```bash
+python -m pip install --upgrade pip
+```
+
+#### 2. Create & activate a virtual environment
 ```bash
 python3 -m venv venv && source venv/bin/activate
 ```
-### 2. Install the dependencies
+#### 3. Install the dependencies
 ```bash
-pip install -r virtual-assistant/requirements.txt
+pip install -r ai-chatbot-assistant/requirements.txt
 ```
-### 3. Run the application
+#### 4. Run the application
 ```bash
-streamlit run app.py
+streamlit run ai-chatbot-assistant/Home.py
 ```
 
 <br>
@@ -236,15 +292,40 @@ Any other issues,  please refer to the [Vicuna Documentation](https://github.com
 
 ## Connect any other language model
 
-The connection to the GPT models family can be made through the streamlit app. Bard integration if future work so feel free to make a PR on it :)
+The connection to the GPT models family can be made through the streamlit app. Bard integration if future work so feel free to make a [PR](https://github.com/IERoboticsClub/workshops/pulls) on it and contribute :)
 
 <br>
+
+# Contribute
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project and create a feature: 
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Feel Free to contact us: 
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:robotics.club@ie.edu)
+
+
+<p align="right">(<a href="#CMC">back to top</a>)</p>
 
 # Presenters
 - Nicholas Dieke
 - [Adnan Bhanji](https://github.com/adnanbhanji)
 - [Vera Prohaska](https://github.com/vtwoptwo)
 - [Diego Sanmartin](https://github.com/dsanmart)
+- [Keti Sulamanidze](https://github.com/)
+
 
 <br>
 
@@ -253,3 +334,51 @@ Event organized by:
 <div style="text-align:center"><img src="./assets/robotics.jpg" width="50%" /><img src="./assets/gdsc.jpg" width="42%"/></div>
 <div style="text-align:center"></div>
 <br>
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES [![Name][Shield]][url] -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/IERoboticsClub/workshops.svg?style=for-the-badge
+[contributors-url]: https://github.com/IERoboticsClub/workshops/graphs/contributors 
+[forks-shield]: https://img.shields.io/github/forks/IERoboticsClub/workshops.svg?style=for-the-badge
+[forks-url]: https://github.com/IERoboticsClub/workshops/network/members
+[stars-shield]: https://img.shields.io/github/stars/IERoboticsClub/workshops.svg?style=for-the-badge
+[stars-url]: https://github.com/IERoboticsClub/workshops/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IERoboticsClub/workshops.svg?style=for-the-badge
+[issues-url]: https://github.com/IERoboticsClub/workshops/issues
+[license-shield]: https://img.shields.io/github/license/IERoboticsClub/workshops.svg?style=for-the-badge
+[license-url]: https://github.com/IERoboticsClub/workshops/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/vera-prohaska-31734b1b5/
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
+[CPP-url]: https://cplusplus.com/
+[C++]: https://img.shields.io/badge/C++-blue
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/
+[Jupyter]: https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white
+[Jupyter-url]: https://jupyter.org/
+[SciKit-Learn]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[SciKit-Learn-url]: https://scikit-learn.org/stable/
+[Scipy]: https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
+[Scipy-url]:https://scipy.org/
+[Tensorflow]: https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white
+[Tensorflow-url]:https://www.tensorflow.org/
+[Pandas]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
+[Pandas-url]: https://pandas.pydata.org/
