@@ -33,8 +33,12 @@ tempDir = "tempDir" # TBD - Delete tempDir after processing
 
 files = st.file_uploader("Upload & process your data", type=["pdf"], accept_multiple_files=True)
 
+
+if not os.path.exists(tempDir):
+    os.makedirs(tempDir)   
+
 left, right = st.columns([4,1])
-if left.button("Process data"):        
+if left.button("Process data"):     
     if files is not None:
         file_names = []    
         dfs = []

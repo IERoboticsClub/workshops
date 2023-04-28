@@ -30,8 +30,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("./assets/jarvis.png", width=300)
-
+    st.image("ai-chatbot-assistant/assets/jarvis.png", width=300)
 with col3:
     st.write(' ')
 
@@ -181,7 +180,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("./assets/streamlit-demo.png", width=300)
+    st.image("ai-chatbot-assistant/assets/streamlit-demo.png", width=300)
 
 with col3:
     st.write(' ')
@@ -315,11 +314,11 @@ st.header('Organized By:')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image('./assets/robotics.png', width=300)
+    st.image('ai-chatbot-assistant/assets/robotics.png', width=300)
 
 with col2:
     st.write('')
 
 with col3:
-    st.image('./assets/gdsc.png',  width=300)
+    st.image('ai-chatbot-assistant/assets/gdsc.png',  width=300)
 
