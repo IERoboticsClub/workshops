@@ -8,7 +8,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-#  AI - Virtual Assistant
+# AI - Virtual Assistant
 
 <div style="text-align:center"><i>Imagine having a digital assistant that can chat with you like a real person, providing you with instant and relevant information whenever you need it. That's the power of an AI virtual assistant!</i></div>
 
@@ -64,15 +64,22 @@ In this workshop we introduce a virtual assistant chatbot that can be used to pe
 
 &nbsp;&nbsp;&nbsp;&nbsp; [3.3 Steps to run the application](#steps-to-run-the-application)
 
+&nbsp;&nbsp;&nbsp;&nbsp; [3.4 Understanding the Makefile Commands](#understanding-the-makefile-commands)
+
+
 [4. Connecting a Language Model](#connecting-a-language-model)
 
 &nbsp;&nbsp;&nbsp;&nbsp; [4.1 Run Vicuna Locally](#runing-vicuna-locally)
 
 &nbsp;&nbsp;&nbsp;&nbsp; [4.2 Connecting any other language model](#connecting-any-other-language-model)
 
-[5. Presenters](#presenters)
+[5. Contribute](#contribute)
+
+[6. Presenters](#presenters)
+
 
 <br>
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
 
 # 1. Virtual Assistant Workflow
 ![Virtual Assistant Workflow](./assets/assistant-workflow.png)
@@ -146,10 +153,13 @@ The final step in the workflow is to convert the chatbot's response text into sp
 
 <br>
 
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
+
 
 # 2. Streamlit Demo
 ![Streamlit Demo](./assets/JarvIEs.gif)
 
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
 
 # 3. Instructions to Run the Virtual Assistant in your Laptop
 
@@ -222,6 +232,7 @@ streamlit run ai-chatbot-assistant/Home.py
 ```
 
 <br>
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
 
 # Connecting a Language Model
 In this section we offer 2 solutions to connect a language model to our chatbot. The first one is to use [Vicuna](https://vicuna.lmsys.org/), an Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality. The second one is to connect any other language model such as Bard, ChatGPT, etc.. by following the steps [here](#)
@@ -295,6 +306,7 @@ Any other issues,  please refer to the [Vicuna Documentation](https://github.com
 The connection to the GPT models family can be made through the streamlit app. Bard integration if future work so feel free to make a [PR](https://github.com/IERoboticsClub/workshops/pulls) on it and contribute :)
 
 <br>
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
 
 # Contribute
 
@@ -317,7 +329,7 @@ Feel Free to contact us:
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:robotics.club@ie.edu)
 
 
-<p align="right">(<a href="#CMC">back to top</a>)</p>
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
 
 # Presenters
 - Nicholas Dieke
@@ -335,6 +347,7 @@ Event organized by:
 <div style="text-align:center"></div>
 <br>
 
+<p align="right">(<a href="#ai---virtual-assistant">back to top</a>)</p>
 
 
 
