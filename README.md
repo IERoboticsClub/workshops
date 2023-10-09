@@ -8,7 +8,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+![hacktoberfest](https://img.shields.io/badge/Hacktoberfest-2023-blueviolet?style=for-the-badge&logo=appveyor)
 
 
 
@@ -20,12 +20,14 @@ This repository contains a collection of workshops that the IE Robotics Club has
 
 - [Steganography Workshop](https://github.com/IERoboticsClub/workshops//blob/main/steganography-workshop)
 - [AI Chatbot Assistant](https://github.com/IERoboticsClub/workshops//blob/main/ai-chatbot-assistant)
+- [AI Music Album Generator](https://github.com/IERoboticsClub/workshops//blob/main/ai-music-album)
 
 
 ## Contributing
 
 If you have an idea for a workshop and want to participate, send us an E-Mail [here](mailto:robotics.club@ie.edu)
 
+You can also add new features to previous workshops following the steps in `CONTRIBUTING.md`.
 
 ## Social Media
 

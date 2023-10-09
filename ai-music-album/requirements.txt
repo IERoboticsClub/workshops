@@ -1,0 +1,6 @@
+torch==2.1
+audiocraft==1.0.0
+streamlit
+langchain==0.0.310
+python-dotenv==1.0.0
+openai==0.28.1
