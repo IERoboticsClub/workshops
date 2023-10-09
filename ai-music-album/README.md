@@ -67,15 +67,15 @@ Enjoy your unique AI-generated music album! 🎶
 
 <!-- MARKDOWN LINKS & IMAGES [![Name][Shield]][url] -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/IERoboticsClub/minotauro.svg?style=for-the-badge
-[contributors-url]: https://github.com/IERoboticsClub/minotauro/graphs/contributors 
-[forks-shield]: https://img.shields.io/github/forks/IERoboticsClub/minotauro.svg?style=for-the-badge
-[forks-url]: https://github.com/IERoboticsClub/minotauro/network/members
-[stars-shield]: https://img.shields.io/github/stars/IERoboticsClub/minotauro.svg?style=for-the-badge
-[stars-url]: https://github.com/IERoboticsClub/minotauro/stargazers
-[issues-shield]: https://img.shields.io/github/issues/IERoboticsClub/minotauro.svg?style=for-the-badge
-[issues-url]: https://github.com/IERoboticsClub/minotauro/issues
-[license-shield]: https://img.shields.io/github/license/IERoboticsClub/minotauro.svg?style=for-the-badge
-[license-url]: https://github.com/IERoboticsClub/minotauro/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/IERoboticsClub/workshops.svg?style=for-the-badge
+[contributors-url]: https://github.com/IERoboticsClub/workshops/graphs/contributors 
+[forks-shield]: https://img.shields.io/github/forks/IERoboticsClub/workshops.svg?style=for-the-badge
+[forks-url]: https://github.com/IERoboticsClub/workshops/network/members
+[stars-shield]: https://img.shields.io/github/stars/IERoboticsClub/workshops.svg?style=for-the-badge
+[stars-url]: https://github.com/IERoboticsClub/workshops/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IERoboticsClub/workshops.svg?style=for-the-badge
+[issues-url]: https://github.com/IERoboticsClub/workshops/issues
+[license-shield]: https://img.shields.io/github/license/IERoboticsClub/workshops.svg?style=for-the-badge
+[license-url]: https://github.com/IERoboticsClub/workshops/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/ie-robotics-club/
