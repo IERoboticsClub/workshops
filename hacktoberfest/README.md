@@ -70,3 +70,10 @@ This guide will provide you with a set of resources and questions you can ask op
 > I have pushed my changes to my forked repository. Can you help me create a pull request to the original repository? Please open the pull request in my browser.
 
 Congratulations! You have successfully contributed to an open source project :tada: :tada: :tada:
+
+
+# Additional Resources
++ [CodeRabbit](https://coderabbit.ai/)
++ [Github Copilot](https://github.com/features/copilot)
++ [Interactive Github Lab](https://skills.github.com/)
++ [AI Commits](https://github.com/Nutlope/aicommits)

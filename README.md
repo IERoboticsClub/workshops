@@ -21,6 +21,7 @@ This repository contains a collection of workshops that the IE Robotics Club has
 - [Steganography Workshop](https://github.com/IERoboticsClub/workshops//blob/main/steganography-workshop)
 - [AI Chatbot Assistant](https://github.com/IERoboticsClub/workshops//blob/main/ai-chatbot-assistant)
 - [AI Music Album Generator](https://github.com/IERoboticsClub/workshops//blob/main/ai-music-album)
+- [Hacktoberfest](https://github.com/IERoboticsClub/workshops//blob/main/hacktoberfest)
 
 
 ## Contributing
@@ -39,7 +40,7 @@ https://github.com/IERoboticsClub/workshops
 <!-- MARKDOWN LINKS & IMAGES [![Name][Shield]][url] -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/IERoboticsClub/workshops.svg?style=for-the-badge
-[contributors-url]: https://github.com/IERoboticsClub/workshops/graphs/contributors 
+[contributors-url]: https://github.com/IERoboticsClub/workshops/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/IERoboticsClub/workshops.svg?style=for-the-badge
 [forks-url]: https://github.com/IERoboticsClub/workshops/network/members
 [stars-shield]: https://img.shields.io/github/stars/IERoboticsClub/workshops.svg?style=for-the-badge
@@ -65,7 +66,7 @@ https://github.com/IERoboticsClub/workshops
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [CPP-url]: https://cplusplus.com/
 [C++]: https://img.shields.io/badge/C++-blue
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
