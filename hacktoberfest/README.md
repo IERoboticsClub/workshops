@@ -1,79 +1,74 @@
 # Hacktoberfest @ IE
 
+Dive into the world of open-source with Hacktoberfest at IE! We've set up a fun and engaging workshop for you to learn Git, contribute to open-source projects, and make the digital realm a better place. To kickstart this journey, we've chosen Open Interpreter to be your companion. Let's get you set up!
 
-## Setup [Open Interpreter](https://docs.openinterpreter.com/introduction)
-To make the experience of using git much easier for you during our workshops, we chose to use open-interpreter to help guide you thought your learning journey of using git.
+## Set Up [Open Interpreter](https://docs.openinterpreter.com/introduction)
+Open Interpreter will make your Git experience a breeze throughout our workshops. Follow the steps below, and you'll be ready to contribute in no time!
 
-To install open-interpreter you will need the [latest stable version](https://www.python.org/downloads/) of [Python](https://www.python.org/downloads/) and secondly you will need to [install pip](https://pip.pypa.io/en/stable/installation/)
+### Pre-requisites
+- Download and install the [latest stable version](https://www.python.org/downloads/) of [Python](https://www.python.org/downloads/).
+- [Install pip](https://pip.pypa.io/en/stable/installation/) to manage your Python packages.
 
-### What is Open Interpreter
-Open Interpreter is a free, open-source tool that facilitates the execution of code on your computer, harnessing the capabilities of language models.
+### What is Open Interpreter?
+Open Interpreter is an open-source tool that empowers you to execute code seamlessly on your machine with the aid of language models. It's your code buddy!
 
-### Installation
-+ [ ] Install Python 3.6 or higher
-+ [ ] Install pip
+### Installation Steps
+1. Ensure you have Python 3.6 or higher installed.
+2. Make sure pip is installed.
+3. Run the following command to install Open Interpreter:
+   ```bash
+   pip install open-interpreter
+   ```
+4. Head over to [OpenAI](https://platform.openai.com/account/api-keys) to generate an API key.
 
-Now you can install Open Interpreter using pip:
-```bash
-pip install open-interpreter
-```
+   ![API Key Generation](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/red-arrow-pointing-to-the-button-that-generates-a-new-API-key.jpg?q=50&fit=crop&w=750&dpr=1.5)
 
-Now you will need to get an API key from OpenAI at this [link](https://platform.openai.com/account/api-keys).
+   1. Hit the "Create New Secret Key" button.
+   2. Name your key (e.g., open-interpreter).
+   3. Copy the key and run the following command in your terminal:
 
+      For Linux/MacOS:
+      ```bash
+      export OPENAI_API_KEY=<your-api-key>
+      ```
 
-![demo](https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2023/04/red-arrow-pointing-to-the-button-that-generates-a-new-API-key.jpg?q=50&fit=crop&w=750&dpr=1.5)
-
-1. Click on the "Create New Secret Key" button
-2. Give your key a name _(e.g. open-interpreter)_
-3. Copy the key and run the following command in your terminal:
-
-
-for Linux/MacOS:
-```bash
-export OPENAI_API_KEY=<your-api-key>
-```
-
-for Windows:
-```bash
-set OPENAI_API_KEY=<your-api-key>
-```
+      For Windows:
+      ```bash
+      set OPENAI_API_KEY=<your-api-key>
+      ```
 
 ### Usage
-Once installed, you can launch Open Interpreter by running the `interpreter` command in your terminal. This will open up a natural-language interface allowing you to communicate with your computer and execute code seamlessly.
+Run the `interpreter` command in your terminal to launch Open Interpreter. Voila! You now have a natural-language interface for interactive coding.
 
-Congratulations! You are now ready to use Open Interpreter :tada: :tada: :tada:
+## Contribute Like a Pro!
+This guide equips you with resources and prompts for Open Interpreter to kickstart your open-source contribution journey.
 
+1. We've set up a [practice repository](https://github.com/haxybaxy/testrepo) for you. Fork it to get started!
+2. Clone the forked repository to your machine via Open Interpreter:
+   ```plaintext
+   Hey! I want to clone my forked repository. Here's the link: https://github.com/<USERNAME>/hacktobertest
+   ```
+3. Create a new branch for your modifications:
+   ```plaintext
+   I'd like to create a new branch named <my-new-branch>. Can you assist?
+   ```
+4. Modify the repository. Create new files or open existing ones in your favorite editor like so:
+   ```plaintext
+   Open the cloned repository in <my-favorite-editor>. I'd like to make some changes.
+   ```
+5. Commit and push your changes:
+   ```plaintext
+   I've made changes and am ready to commit and push with the message: <my first commit>
+   ```
+6. Create a pull request to the original repository:
+   ```plaintext
+   I'm ready to create a pull request. Please help me open it in my browser.
+   ```
 
-## How to contribute
-This guide will provide you with a set of resources and questions you can ask open-interpreter to help you get started with contributing to open source projects.
+🎉 Congrats on your first contribution to open-source! 🎉
 
-1. We made a repository for you to practice contributing to open source projects. You can find it [here](https://github.com/haxybaxy/testrepo). To contribute to this repository you will need to fork it first. You can do that by clicking on the fork button on the top right corner of the repository page.
-
-2. Now you will need to clone the repository to your local machine. You can do that by clicking on the green code button and copying the link. Now is time to go to your terminal running open-interpreter, paste in the link and ask it to clone the repository for you. Ex:
-
-> Hey! I have a forked repository on github. I want to clone it to my local machine. Can you help me with that? The link to the repository is: https://github.com/velocitatem/hacktobertest
-
-3. Now that you have the repository on your local machine, you can start making changes to it. We start making changes by creating a new branch. You can do that by asking open-interpreter to create a new branch for you. Ex:
-
-> Now that I have the repository on my local machine, I want to create a new branch. Can you help me with that? The name of the branch should be: <my-new-branch>
-
-4. Now that you have a new branch, you can start making changes to the repository. You can do that by asking open-interpreter to create a new file for you or open the project in your favorite code editor. Ex:
-
-> I now need to create a new file. Can you help me with that? Please open the main python file in my favorite code editor. My favorite code editor is: vscode
-
-5. Now that you have made some changes to the repository, you can ask open-interpreter to help you commit and push your changes to your forked repository. Ex:
-
-> I have made some changes to the repository. Can you help me commit and push them to my forked repository? The commit message should be: <my first commit>
-
-6. Now that you have pushed your changes to your forked repository, you can ask open-interpreter to help you create a pull request to the original repository. Ex:
-
-> I have pushed my changes to my forked repository. Can you help me create a pull request to the original repository? Please open the pull request in my browser.
-
-Congratulations! You have successfully contributed to an open source project :tada: :tada: :tada:
-
-
-# Additional Resources
-+ [CodeRabbit](https://coderabbit.ai/)
-+ [Github Copilot](https://github.com/features/copilot)
-+ [Interactive Github Lab](https://skills.github.com/)
-+ [AI Commits](https://github.com/Nutlope/aicommits)
+## Expand Your Horizons
+- Master coding with [CodeRabbit](https://coderabbit.ai/)
+- Experience AI-powered coding with [Github Copilot](https://github.com/features/copilot)
+- Hone your skills at [Interactive Github Lab](https://skills.github.com/)
+- Explore AI-generated commits on [AI Commits](https://github.com/Nutlope/aicommits)
