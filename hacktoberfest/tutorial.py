@@ -4,7 +4,7 @@ users = [
 ]
 
 def greet(user):
-    print(f'Hello {user}!')
+    print(f'Hello {user}! \n')
 
 
 if __name__ == "__main__":
