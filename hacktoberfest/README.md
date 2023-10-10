@@ -1,3 +1,5 @@
+![hf10_banner_1032x600](https://github.com/velocitatem/workshops/assets/60182044/9df25952-7123-44b8-a225-f288d015ae00)
+
 # Hacktoberfest @ IE
 
 Dive into the world of open-source with Hacktoberfest at IE! We've set up a fun and engaging workshop for you to learn Git, contribute to open-source projects, and make the digital realm a better place. To kickstart this journey, we've chosen Open Interpreter to be your companion. Let's get you set up!
