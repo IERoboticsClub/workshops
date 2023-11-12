@@ -6,11 +6,14 @@
 This workshop will guide you through generating personalized profile pictures using latest AI models. Participants will learn the intricacies of training a model with their data to produce unique, custom images.
 
 ### Workflow
-1. **Introduction to DreamBooth**: Discover the capabilities and concept behind DreamBooth technology.
-2. **Accessing the Workshop Material**: Instructions on how to access and use the Google Colab notebook.
+1. [**Introduction to DreamBooth**](#introduction-to-dreambooth): Discover the capabilities and concept behind DreamBooth technology.
+2. [**Accessing the Workshop Material**](#accessing-the-workshop-material): Instructions on how to access and use the Google Colab notebook.
 3. **Model Training and Personalization**: Step-by-step walkthrough of training the DreamBooth model with personal data.
 4. **Result Analysis and Enhancement**: Tips and techniques for analyzing the output and improving the quality of generated images.
-5. **BONUS: Generating Avatars**: Generate and download your own avatar profile pictures using GPT-V and DALL-E 3.
+5. **BONUS: Generating Avatars with OpenAI**: Generate and download your own avatar profile pictures using GPT4-V and DALL-E 3.
+
+
+## Introduction to DreamBooth
 
 ### DreamBooth Technology: A Detailed Overview
 
@@ -30,6 +33,8 @@ At the [Official Website of the IE Robotics and AI Club](https://www.ieroboticsc
 #### Advantages and Limitations
 One of the key advantages of DreamBooth is its ability to create highly personalized content, offering a new level of customization in digital media. However, like all AI technologies, it has its limitations. The quality and uniqueness of the output heavily depend on the training data provided and the base model used. There are also ethical considerations, particularly in terms of privacy and the use of personal data, which need to be addressed while using such technology.
 
+
+## Accessing the Workshop Material
 ### Access the DreamBooth Workshop Notebook
 To begin the workshop, click on the "Open In Colab" badge above. This will take you directly to the Google Colab notebook created for this workshop.
 
