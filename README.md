@@ -22,6 +22,7 @@ This repository contains a collection of workshops that the IE Robotics Club has
 - [AI Chatbot Assistant](https://github.com/IERoboticsClub/workshops//blob/main/ai-chatbot-assistant)
 - [AI Music Album Generator](https://github.com/IERoboticsClub/workshops//blob/main/ai-music-album)
 - [Hacktoberfest](https://github.com/IERoboticsClub/workshops//blob/main/hacktoberfest)
+- [AI Profile Pictures](./ai-profile-pic)
 
 
 ## Contributing
