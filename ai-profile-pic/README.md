@@ -1,6 +1,6 @@
 # AI - Generating Profile Pictures 🖼️
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1djkSLl3ALqSPu947ER5aSTSo8R4cOnb6?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1L_C8b0knZCD7waKl7ODnUyAVwSf-eyAB?usp=sharing)
 
 ### Objective
 This workshop will guide you through generating personalized profile pictures using latest AI models. Participants will learn the intricacies of training a model with their data to produce unique, custom images.
